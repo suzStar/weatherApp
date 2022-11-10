@@ -1,0 +1,80 @@
+body {
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
+  font-family: "PT Sans Caption", sans-serif;
+  background: #e5e5e5;
+  color: #333;
+}
+
+.citySearch {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.cityName {
+  font-size: 60px;
+}
+.currentTime {
+  color: #14213d;
+  font-size: 25px;
+}
+
+.currentDate {
+  color: #333;
+  font-size: 20px;
+}
+
+.currentWeather {
+  width: 350px;
+}
+
+.currentTemp {
+  font-size: 100px;
+}
+
+.tempUnit {
+  font-size: 30px;
+}
+
+.celsius {
+  color: #6c757d;
+  text-decoration: none;
+}
+.celsius:hover {
+  color: #fca311;
+}
+.celsius:active {
+  color: #14213d;
+}
+
+.fahrenheit {
+  color: #6c757d;
+  text-decoration: none;
+}
+.fahrenheit:hover {
+  color: #fca311;
+}
+.fahrenheit:active {
+  color: #495057;
+}
+
+.forecastImage {
+  width: 60px;
+}
+
+hr {
+  margin: 50px auto;
+  height: 2px;
+  width: 40em;
+  border-radius: 5px;
+  background-color: #191206;
+}
+
+.forecastTemp {
+  font-size: 25px;
+}
+.forecastUnit {
+  vertical-align: text-top;
+  font-size: 20px;
+}
